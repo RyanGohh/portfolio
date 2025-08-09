@@ -1,1 +1,149 @@
-<p>about works!</p>
+<!-- <div class="position-relative contact-bg-wrapper">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+
+    <div class="container py-5">
+        <div class="card shadow p-4 border-0 rounded-4">
+            <div class="text-center mb-4">
+                <img src="assets/Logo.png" alt="Logo" class="about-logo mb-3">
+                <h1>About Me</h1>
+                <p class="lead">
+                    I am a curious, determined individual with a love for learning and self-improvement.
+                    I enjoy coding, but there's a lot more to me than just lines of JavaScript.
+                </p>
+            </div>
+
+            <div class="mb-4">
+                <h4>🎓 Education</h4>
+                <p>
+                    I graduated from Singapore Institute of Management where I studied Business Information Systems.
+                    My time there taught me more than academics — it shaped my work ethic and love for collaboration.
+                </p>
+            </div>
+
+            <div class="mb-4">
+                <h4>🌟 In My Free Time</h4>
+                <ul class="custom-list">
+                    <li>🎮 I enjoy playing strategy games — it helps me think logically and stay sharp.</li>
+                    <li>⌨️ I’m a mechanical keyboard enthusiast and love customizing keycaps and switches.</li>
+                    <li>🎧 I unwind with lo-fi beats or a good podcast on tech, psychology, or horror stories.</li>
+                    <li>☕ I’m always on the hunt for great coffee shops to code and chill at.</li>
+                </ul>
+            </div>
+
+            <div>
+                <h4>🎲 Fun Facts</h4>
+                <ul class="custom-list">
+                    <li>💬 I once answered over 500 Stack Overflow questions in a month — just for fun.</li>
+                    <li>🐱 I like cats but somehow all my friends are dog people.</li>
+                    <li>🧠 I memorize keyboard shortcuts like they’re song lyrics.</li>
+                    <li>🛠️ I built my first website using Notepad and pure HTML when I was 13.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <svg class="contact-wave" viewBox="0 0 1440 320" preserveAspectRatio="none" aria-hidden="true">
+        <path fill="#ffffff" fill-opacity="1"
+          d="M0,192L80,170.7C160,149,320,107,480,122.7C640,139,800,213,960,229.3C1120,245,1280,203,1360,181.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+    </svg>
+</div> -->
+
+<div class="position-relative contact-bg-wrapper">
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+
+    <div class="container py-5">
+        <div class="card shadow p-4 border-0 rounded-4">
+            <div class="text-center mb-4">
+                <img src="assets/Logo.png" alt="Logo" class="about-logo mb-3">
+                <h1 class="text-center mb-4">About Me</h1>
+                
+                <div class="accordion" id="aboutAccordion">
+                    <!-- About Me -->
+                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#aboutMe" aria-expanded="false">
+                                👋 About Me
+                            </button>
+                        </h2>
+                        <div id="aboutMe" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                            <div class="accordion-body">
+                                Curious, determined, and always learning.
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Education -->
+                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#education">
+                                🎓 Education
+                            </button>
+                        </h2>
+                        <div id="education" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                            <div class="accordion-body">
+                                <strong>Singapore Institute of Management</strong><br />
+                                Studied Business Information Systems<br />
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Free Time -->
+                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#freeTime">
+                                🌟 In My Free Time
+                            </button>
+                        </h2>
+                        <div id="freeTime" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled mb-0">
+                                    <li>Play Games</li>
+                                    <li>Play Volleyball</li>
+                                    <li>Code Projects</li>
+                                    <li>Connecting with friends</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Fun Facts -->
+                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#funFacts">
+                                🎲 Fun Facts
+                            </button>
+                        </h2>
+                        <div id="funFacts" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                            <div class="accordion-body">
+                                <ul class="list-unstyled mb-0">
+                                    <li>A</li>
+                                    <li>B</li>
+                                    <li>C</li>
+                                    <li>D</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item border-0 mb-3 shadow-sm rounded-4">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#resume">
+                                📄 Resume
+                            </button>
+                        </h2>
+                        <div id="resume" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                            <div class="accordion-body">
+                                <a href="assets/Resume - Goh Zi Rong.pdf" class="btn btn-outline-primary px-4" download>Download Resume<i class="bi bi-download ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <svg class="contact-wave" viewBox="0 0 1440 320" preserveAspectRatio="none" aria-hidden="true">
+        <path fill="#ffffff" fill-opacity="1"
+          d="M0,192L80,170.7C160,149,320,107,480,122.7C640,139,800,213,960,229.3C1120,245,1280,203,1360,181.3L1440,160L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+    </svg>
+</div>

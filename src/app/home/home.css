@@ -1,4 +1,4 @@
-.hero {
+/* .hero {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -45,7 +45,6 @@
     text-decoration: none;
     text-align: center;
     border-radius: 0.5rem;
-    /* background: #231a8b; */
     transition: background-color 0.3s ease, transform 0.2s ease;
     cursor: pointer;
 }
@@ -78,4 +77,44 @@
     background: yellow;
     object-fit: cover;
     padding: 15px;
+} */
+
+/* img:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
+.bg-wrapper {
+  background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+  min-height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+} */
+
+.badge {
+    width: 80px;
+}
+
+.mb-4 button {
+    width: 130px;
+}
+
+.carousel-logo {
+    max-height: 180px;
+    width: auto;
+    object-fit: contain;
 }

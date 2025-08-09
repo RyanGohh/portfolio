@@ -1,0 +1,208 @@
+/* .contact-bg-wrapper {
+  background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  z-index: 2;
+}
+
+.contact-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.blob1 {
+  background: #bbdefb;
+  width: 300px;
+  height: 300px;
+  top: -100px;
+  left: -100px;
+}
+
+.blob2 {
+  background: #ffcdd2;
+  width: 250px;
+  height: 250px;
+  bottom: -80px;
+  right: -80px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+i {
+  vertical-align: middle;
+}
+
+.icon-link {
+  color: #6c757d;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+}
+
+.icon-link:hover {
+  transform: scale(1.1);
+}
+
+.github-icon:hover {
+  color: #0a66c2;
+}
+
+.linkedin-icon:hover {
+  color: #0a66c2;
+} */
+
+.contact-bg-wrapper {
+  background: linear-gradient(to bottom right, #e3f2fd, #ffffff);
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-wrapper {
+  min-height: 100vh;
+  padding: 4rem 1rem;
+  font-family: 'Georgia', serif;
+}
+
+/* Optional logo */
+.contact-logo {
+  width: 60px;
+  height: auto;
+  background: white;
+  padding: 6px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px #ccc;
+  margin-bottom: 1rem;
+}
+
+/* Header styling */
+.contact-brand {
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+  color: #444;
+}
+
+.contact-title {
+  font-family: 'Playfair Display', serif;;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #111;
+  position: relative;
+}
+
+/* Contact info */
+.contact-info {
+  background-color: #fff;
+  border-radius: 10px;
+  border: solid 1px;
+  padding: 2rem;
+  max-width: 520px;
+  width: 90%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  font-family: 'Inter', sans-serif;  /* ← Here */
+  font-size: 1.05rem;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.1rem;
+  padding: 0.5rem 0;
+}
+
+.contact-row i {
+  font-size: 1.25rem;
+  color: #555;
+}
+
+hr {
+  margin: 0.5rem 0;
+  border-top: 1px solid #ddd;
+}
+
+.blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.blob1 {
+  background: #bbdefb;
+  width: 300px;
+  height: 300px;
+  top: -100px;
+  left: -100px;
+}
+
+.blob2 {
+  background: #ffcdd2;
+  width: 250px;
+  height: 250px;
+  bottom: -80px;
+  right: -80px;
+}
+
+.contact-wave {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+i {
+  vertical-align: middle;
+}
+
+.icon-link {
+  color: #555;
+  transition: color 0.3s ease, transform 0.3s ease;
+  cursor: pointer;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
+  font-size: 1.8rem;
+}
+
+.icon-link:hover {
+  transform: scale(1.2);
+}
+
+.github-icon:hover {
+  color: #0a66c2;
+}
+
+.linkedin-icon:hover {
+  color: #0a66c2;
+}
